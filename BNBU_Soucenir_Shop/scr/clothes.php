@@ -1,0 +1,41 @@
+<html>
+<head>
+<style>
+    #table{border:6px solid black; width:90px;  height:70px;  table-layout: fixed;}
+</style>
+<link rel="stylesheet" href="CSS.css"/>
+</head>
+<body>
+    <div class="box1">
+    <h1 color="yellow">
+        Clothes
+    </h1>
+    </div>
+    <div class="box2">
+        <a href="home.html">HOME</a>
+        <a href="membership.html">Membership</a>
+        <a href="clothes.html">Clothes</a>
+        <a href="necessities.html">Necessities</a>
+        <a href="ornaments.html">Ornaments</a>
+        <a href="boxes.html">Boxes</a>
+    </div>
+    <div class="box3" length="800px">
+        <table id="table">
+            <tr>
+                <td class="table"><a href="home.html"><img class=box src="images/bnbu.jpg" style="width:70px;"></a></td>
+                <td class="table"><a href="membership.html"><img class=box src="images/membership.jpg"  alt="Membership"><br></a></td>
+                <td class="table">Quantity (0 to 9): <input type="number" id=quantity min="0" max="9" value="1" ></input></td>
+            </tr>
+            <tr>
+                <td class="table"><a href="clothes.html"><img class=box src="images/clothes.png"></a></td>
+                <td class="table"><a href="necessities.html"><img class=box src="images/necessities.png"><br></a></td>
+                 <td class="table">Quantity (0 to 9): <input type="number" id=quantity min="0" max="9" value="1" ></input></td>
+            </tr>
+            <tr>
+                <td class="table"><a href="ornaments.html"><img class=box src="images/ornaments.png"></a></td>
+                <td class="table"><a href="boxes.html"><img class=box src="images/boxes.jpg"  alt="BNBU boxes"></a></td>
+                 <td class="table">Quantity (0 to 9): <input type="number" id=quantity min="0" max="9" value="1" ></input></td>
+            </tr>
+        </table>
+    </div>
+</body>
